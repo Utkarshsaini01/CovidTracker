@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    /* border:0.1em solid red; */
+}
+
+.mainbody{
+    display:flex;
+    align-content: center;
+}
+
+.formplace{
+    width: 35%;
+    margin:auto;
+    margin-top: 1.5em;
+    border: .3em blue solid;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.formclass{
+    background-color: aqua;
+    margin:auto;
+}
+
+.pngimage{
+    text-align: center;
+}
+
+.pngimage>img{
+    width:20%;
+}
+
+.formsection{   
+    display:flex;
+    justify-content: space-between;
+    padding:0.5em;
+}
+
+.elements{
+    padding:0.5em;
+}
+

@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* header css */
+.MainHeader {
+    text-align: center;
+    background-color: aqua;
+}
+
+.MainHeading{
+    padding:1em;
+    color:black;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navigator{
+    background-color: blue;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navigator>ul{
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: center;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navigations{
+    padding:0.4em;
+}
+
+.navigations:hover{
+    background-color: black;
+}
+
+.navigations>a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigations>a:hover{
+    text-decoration:underline;
+    color: yellow;
+}
